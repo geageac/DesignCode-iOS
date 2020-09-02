@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,14 @@
 		114BB53C24FB49A900ADF93A /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114BB53B24FB49A900ADF93A /* Modifiers.swift */; };
 		114BB53E24FC20E000ADF93A /* Work_Sans in Resources */ = {isa = PBXBuildFile; fileRef = 114BB53D24FC20E000ADF93A /* Work_Sans */; };
 		114BB54024FC2F1600ADF93A /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114BB53F24FC2F1600ADF93A /* CourseList.swift */; };
+		11F4160B24FEF165007A27D5 /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4160A24FEF165007A27D5 /* CourseDetail.swift */; };
+		11F4160D24FEF51B007A27D5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4160C24FEF51B007A27D5 /* Data.swift */; };
+		11F4160F24FEF6B5007A27D5 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4160E24FEF6B5007A27D5 /* PostList.swift */; };
+		11F4161124FF007B007A27D5 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4161024FF007B007A27D5 /* DataStore.swift */; };
+		11F4161424FF02EB007A27D5 /* Contentful in Frameworks */ = {isa = PBXBuildFile; productRef = 11F4161324FF02EB007A27D5 /* Contentful */; };
+		11F4161624FF0486007A27D5 /* CourseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4161524FF0486007A27D5 /* CourseStore.swift */; };
+		11F4161924FF09ED007A27D5 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 11F4161824FF09ED007A27D5 /* SDWebImageSwiftUI */; };
+		11F4161B24FF0CE2007A27D5 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4161A24FF0CE2007A27D5 /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +54,12 @@
 		114BB53B24FB49A900ADF93A /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		114BB53D24FC20E000ADF93A /* Work_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Work_Sans; sourceTree = "<group>"; };
 		114BB53F24FC2F1600ADF93A /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
+		11F4160A24FEF165007A27D5 /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
+		11F4160C24FEF51B007A27D5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		11F4160E24FEF6B5007A27D5 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		11F4161024FF007B007A27D5 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		11F4161524FF0486007A27D5 /* CourseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStore.swift; sourceTree = "<group>"; };
+		11F4161A24FF0CE2007A27D5 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F4161924FF09ED007A27D5 /* SDWebImageSwiftUI in Frameworks */,
+				11F4161424FF02EB007A27D5 /* Contentful in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,11 +102,17 @@
 				114BB52D24F9DCA000ADF93A /* Home.swift */,
 				114BB52F24F9E29200ADF93A /* HomeView.swift */,
 				114BB53F24FC2F1600ADF93A /* CourseList.swift */,
+				11F4161524FF0486007A27D5 /* CourseStore.swift */,
+				11F4160A24FEF165007A27D5 /* CourseDetail.swift */,
 				114BB52B24F9974B00ADF93A /* MenuView.swift */,
 				114BB53124FA9FD000ADF93A /* UpdateList.swift */,
 				114BB53324FAC2E200ADF93A /* UpdateDetail.swift */,
 				114BB53524FAC57500ADF93A /* UpdateStore.swift */,
+				11F4160C24FEF51B007A27D5 /* Data.swift */,
+				11F4161024FF007B007A27D5 /* DataStore.swift */,
+				11F4160E24FEF6B5007A27D5 /* PostList.swift */,
 				114BB53724FAC8B200ADF93A /* TabBar.swift */,
+				11F4161A24FF0CE2007A27D5 /* BlurView.swift */,
 				114BB51D24F8C72D00ADF93A /* Assets.xcassets */,
 				114BB53D24FC20E000ADF93A /* Work_Sans */,
 				114BB52224F8C72D00ADF93A /* LaunchScreen.storyboard */,
@@ -124,6 +146,10 @@
 			dependencies = (
 			);
 			name = DesignCode;
+			packageProductDependencies = (
+				11F4161324FF02EB007A27D5 /* Contentful */,
+				11F4161824FF09ED007A27D5 /* SDWebImageSwiftUI */,
+			);
 			productName = DesignCode;
 			productReference = 114BB51424F8C72B00ADF93A /* DesignCode.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +178,10 @@
 				Base,
 			);
 			mainGroup = 114BB50B24F8C72B00ADF93A;
+			packageReferences = (
+				11F4161224FF02EB007A27D5 /* XCRemoteSwiftPackageReference "contentful.swift" */,
+				11F4161724FF09ED007A27D5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 114BB51524F8C72B00ADF93A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -180,7 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F4161624FF0486007A27D5 /* CourseStore.swift in Sources */,
 				114BB51824F8C72B00ADF93A /* AppDelegate.swift in Sources */,
+				11F4160D24FEF51B007A27D5 /* Data.swift in Sources */,
+				11F4161124FF007B007A27D5 /* DataStore.swift in Sources */,
 				114BB53624FAC57500ADF93A /* UpdateStore.swift in Sources */,
 				114BB53224FA9FD000ADF93A /* UpdateList.swift in Sources */,
 				114BB52C24F9974B00ADF93A /* MenuView.swift in Sources */,
@@ -190,7 +223,10 @@
 				114BB52E24F9DCA000ADF93A /* Home.swift in Sources */,
 				114BB53024F9E29200ADF93A /* HomeView.swift in Sources */,
 				114BB51A24F8C72B00ADF93A /* SceneDelegate.swift in Sources */,
+				11F4160F24FEF6B5007A27D5 /* PostList.swift in Sources */,
 				114BB51C24F8C72B00ADF93A /* ContentView.swift in Sources */,
+				11F4160B24FEF165007A27D5 /* CourseDetail.swift in Sources */,
+				11F4161B24FF0CE2007A27D5 /* BlurView.swift in Sources */,
 				114BB53824FAC8B200ADF93A /* TabBar.swift in Sources */,
 				114BB54024FC2F1600ADF93A /* CourseList.swift in Sources */,
 			);
@@ -386,6 +422,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11F4161224FF02EB007A27D5 /* XCRemoteSwiftPackageReference "contentful.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/contentful/contentful.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+		11F4161724FF09ED007A27D5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11F4161324FF02EB007A27D5 /* Contentful */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11F4161224FF02EB007A27D5 /* XCRemoteSwiftPackageReference "contentful.swift" */;
+			productName = Contentful;
+		};
+		11F4161824FF09ED007A27D5 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11F4161724FF09ED007A27D5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 114BB50C24F8C72B00ADF93A /* Project object */;
 }
