@@ -24,6 +24,7 @@
 		114BB53C24FB49A900ADF93A /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114BB53B24FB49A900ADF93A /* Modifiers.swift */; };
 		114BB53E24FC20E000ADF93A /* Work_Sans in Resources */ = {isa = PBXBuildFile; fileRef = 114BB53D24FC20E000ADF93A /* Work_Sans */; };
 		114BB54024FC2F1600ADF93A /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114BB53F24FC2F1600ADF93A /* CourseList.swift */; };
+		11A4C84B25016F810038C2DA /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A4C84A25016F800038C2DA /* Buttons.swift */; };
 		11F4160B24FEF165007A27D5 /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4160A24FEF165007A27D5 /* CourseDetail.swift */; };
 		11F4160D24FEF51B007A27D5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4160C24FEF51B007A27D5 /* Data.swift */; };
 		11F4160F24FEF6B5007A27D5 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4160E24FEF6B5007A27D5 /* PostList.swift */; };
@@ -54,6 +55,7 @@
 		114BB53B24FB49A900ADF93A /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		114BB53D24FC20E000ADF93A /* Work_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Work_Sans; sourceTree = "<group>"; };
 		114BB53F24FC2F1600ADF93A /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
+		11A4C84A25016F800038C2DA /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		11F4160A24FEF165007A27D5 /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		11F4160C24FEF51B007A27D5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		11F4160E24FEF6B5007A27D5 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				11F4160E24FEF6B5007A27D5 /* PostList.swift */,
 				114BB53724FAC8B200ADF93A /* TabBar.swift */,
 				11F4161A24FF0CE2007A27D5 /* BlurView.swift */,
+				11A4C84A25016F800038C2DA /* Buttons.swift */,
 				114BB51D24F8C72D00ADF93A /* Assets.xcassets */,
 				114BB53D24FC20E000ADF93A /* Work_Sans */,
 				114BB52224F8C72D00ADF93A /* LaunchScreen.storyboard */,
@@ -225,6 +228,7 @@
 				114BB51A24F8C72B00ADF93A /* SceneDelegate.swift in Sources */,
 				11F4160F24FEF6B5007A27D5 /* PostList.swift in Sources */,
 				114BB51C24F8C72B00ADF93A /* ContentView.swift in Sources */,
+				11A4C84B25016F810038C2DA /* Buttons.swift in Sources */,
 				11F4160B24FEF165007A27D5 /* CourseDetail.swift in Sources */,
 				11F4161B24FF0CE2007A27D5 /* BlurView.swift in Sources */,
 				114BB53824FAC8B200ADF93A /* TabBar.swift in Sources */,
