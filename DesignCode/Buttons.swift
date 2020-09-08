@@ -74,7 +74,7 @@ struct RectangleButton: View {
                         .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
                         .shadow(color: Color(#colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)).opacity(0.3), radius: 10, x: 10, y: 10)
                         .offset(x: press ? 70 : -10, y: press ? 16 : 0)
-                     4
+                    
                     Spacer()
                 }
         )
