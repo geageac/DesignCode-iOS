@@ -17,6 +17,7 @@ struct HomeView: View {
     @State var active = false
     @State var activeIndex = -1
     @State var activeView = CGSize.zero
+    @State var isScrollable = false
     @Environment(\.horizontalSizeClass) var horizontalSizeClas
     
     var body: some View {
@@ -92,7 +93,7 @@ struct HomeView: View {
                                     course: self.store.courses[index],
                                         active: self.$active, index: index,
                                         activeIndex: self.$activeIndex,
-                                    activeView: self.$activeView, bounds: bounds
+                                    activeView: self.$activeView, bounds: bounds, isScrollable: self.$isScrollable
                                 )
                                     .offset(y: self.store.courses[index].show ? -geometry.frame(in: .global).minY : 0)
                                     .opacity(self.activeIndex != index && self.active ? 0 : 1)
@@ -114,8 +115,8 @@ struct HomeView: View {
                 .rotation3DEffect(Angle(degrees: showProfile ? Double(viewState.height / 10) - 10 : 0), axis: (x: 10.0, y: 0, z: 0))
                 .scaleEffect(showProfile ? 0.9 : 1)
                 .animation(.spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0))
-            
             }
+            .disabled(self.active && !isScrollable ? true : false)
         }
     }
 }
